@@ -9,7 +9,7 @@ import Structures
 public struct SelectableMessageDropdown: View {
     @EnvironmentObject var viewmodel: ResponderViewModel
 
-    @State public var isExpanded: Bool = false
+    @StoredState public var isExpanded: Bool = false
 
     public let labelWidth: CGFloat
     public let maxListHeight: CGFloat

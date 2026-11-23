@@ -6,9 +6,9 @@ import Extensions
 
 public struct TaskRowView: View {
     @ObservedObject public var viewmodel: TaskListViewModel
-    @State public var task: TaskItem
+    @StoredState public var task: TaskItem
 
-    @State private var now = Date()
+    @StoredState private var now = Date()
     private let timer = Timer.publish(every: 60, on: .main, in: .common).autoconnect()
 
     public var body: some View {

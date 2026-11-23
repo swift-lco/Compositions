@@ -31,7 +31,7 @@ public struct ContactsListView: View {
         self.hideSearchStrictness = hideSearchStrictness
     }
 
-    @State private var showWarning: Bool = false
+    @StoredState private var showWarning: Bool = false
 
     public var body: some View {
         // VStack(alignment: .leading, spacing: 8) {

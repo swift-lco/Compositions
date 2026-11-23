@@ -8,7 +8,7 @@ public struct AddProjectView: View {
     @Environment(\.presentationMode) private var presentation
     @ObservedObject public var viewmodel: TaskListViewModel
 
-    @State private var name = ""
+    @StoredState private var name = ""
 
     public var body: some View {
         VStack(spacing: 16) {

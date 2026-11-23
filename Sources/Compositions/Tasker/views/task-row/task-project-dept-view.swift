@@ -1,11 +1,12 @@
 import SwiftUI
+import ViewComponents
 import Structures
 import Implementations
 
 public struct TaskProjectDeptView: View {
     @ObservedObject var viewmodel: TaskListViewModel
     @Binding var task: TaskItem
-    @State private var showingNewProject = false
+    @StoredState private var showingNewProject = false
 
     public var body: some View {
         HStack(spacing: 16) {

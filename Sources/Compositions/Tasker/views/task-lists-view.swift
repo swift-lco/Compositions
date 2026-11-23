@@ -1,10 +1,11 @@
 import SwiftUI
+import ViewComponents
 import Structures
 import Implementations
 
 public struct TaskListView: View {
     @ObservedObject public var viewmodel: TaskListViewModel
-    @State private var showingAdd = false
+    @StoredState private var showingAdd = false
 
     public init(
         viewmodel: TaskListViewModel

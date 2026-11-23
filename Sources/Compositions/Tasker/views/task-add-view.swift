@@ -8,20 +8,20 @@ public struct AddTaskView: View {
     @Environment(\.presentationMode) private var presentation
     @ObservedObject public var viewmodel: TaskListViewModel
 
-    @State private var title       = ""
-    @State private var description = ""
-    @State private var deadline    = Date().addingTimeInterval(3600)
-    @State private var urgency     = 3
-    @State private var importance  = 3
-    @State private var project: TaskProject
-    @State private var department  = TaskDepartment.marketing
+    @StoredState private var title       = ""
+    @StoredState private var description = ""
+    @StoredState private var deadline    = Date().addingTimeInterval(3600)
+    @StoredState private var urgency     = 3
+    @StoredState private var importance  = 3
+    @StoredState private var project: TaskProject
+    @StoredState private var department  = TaskDepartment.marketing
 
-    @State private var showingNewProject = false
+    @StoredState private var showingNewProject = false
 
     public init(viewmodel: TaskListViewModel) {
         self.viewmodel = viewmodel
         let firstProj = viewmodel.projects.first ?? TaskProject(name: "Default Project")
-        _project = State(initialValue: firstProj)
+        _project = StoredState(initialValue: firstProj)
     }
 
     public var body: some View {

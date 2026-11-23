@@ -7,7 +7,7 @@
 // @available(*, message: "Use SelectableMessageDropdown instead.")
 // public struct WAMessageDropdown: View {
 //     @Binding public var selected: WAMessageTemplate
-//     @State public var isExpanded: Bool = false
+//     @StoredState public var isExpanded: Bool = false
 
 //     public let labelWidth: CGFloat
 //     public let maxListHeight: CGFloat
