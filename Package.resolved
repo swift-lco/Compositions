@@ -1,5 +1,5 @@
 {
-  "originHash" : "9068ad4fc2b4a4773480776d836f6ad22fd281ac5d8882e5d696c07f9ccae99c",
+  "originHash" : "282c6df4552adf2b7886afc29e9bdd0cd2950bbf560349fc84fe306066ad40bd",
   "pins" : [
     {
       "identity" : "ansi",
@@ -70,7 +70,7 @@
       "location" : "https://github.com/leviouwendijk/Economics.git",
       "state" : {
         "branch" : "master",
-        "revision" : "cc3309d4a76db108d4143ddd7ebf85d10f1deeb8"
+        "revision" : "48c69964e46566a7a06793f93cdc24e3eb156929"
       }
     },
     {
@@ -133,7 +133,7 @@
       "location" : "https://github.com/leviouwendijk/Implementations.git",
       "state" : {
         "branch" : "master",
-        "revision" : "30ad7a90a478c6c68685e03a1e9a0ec7aefc721e"
+        "revision" : "832955606456c558b755ede270804a17b3aaace2"
       }
     },
     {
@@ -223,7 +223,7 @@
       "location" : "https://github.com/leviouwendijk/Path.git",
       "state" : {
         "branch" : "master",
-        "revision" : "dd259e212af9e97ba5e91bd3216be9688eb7df25"
+        "revision" : "3cef050339e68298c869b98daf25401c06531a91"
       }
     },
     {
@@ -421,7 +421,16 @@
       "location" : "https://github.com/leviouwendijk/ViewComponents.git",
       "state" : {
         "branch" : "master",
-        "revision" : "d6d136f84adcec5a6304bb951f4c4eb14d91c215"
+        "revision" : "81972918ddcca01b14e5fff927333fade41a6744"
+      }
+    },
+    {
+      "identity" : "viewprimitives",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/leviouwendijk/ViewPrimitives.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "867da23e44d75d81bf73d6dc3cf073d5136625f2"
       }
     },
     {

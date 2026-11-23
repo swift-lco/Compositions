@@ -53,6 +53,11 @@ let package = Package(
             url: "https://github.com/leviouwendijk/Clipboard.git",
             branch: "master"
         ),
+
+        .package(
+            url: "https://github.com/leviouwendijk/ViewPrimitives.git",
+            branch: "master"
+        ),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -69,6 +74,7 @@ let package = Package(
                 .product(name: "Extensions", package: "Extensions"),
                 .product(name: "Version", package: "Version"),
                 .product(name: "Clipboard", package: "Clipboard"),
+                .product(name: "ViewPrimitives", package: "ViewPrimitives"),
             ],
             resources: [
                 .process("Resources")
