@@ -20,11 +20,11 @@ let package = Package(
             branch: "master"
         ),
         .package(
-            url: "https://github.com/leviouwendijk/ViewComponents.git",
+            url: "https://github.com/swift-lco/ViewComponents.git",
             branch: "master"
         ),
         .package(
-            url: "https://github.com/leviouwendijk/Interfaces.git",
+            url: "https://github.com/swift-lco/Interfaces.git",
             branch: "master"
         ),
         .package(
@@ -32,30 +32,30 @@ let package = Package(
             branch: "master"
         ),
         .package(
-            url: "https://github.com/leviouwendijk/Implementations.git",
+            url: "https://github.com/swift-lco/Implementations.git",
             branch: "master"
         ),
         .package(
-            url: "https://github.com/leviouwendijk/Structures.git",
+            url: "https://github.com/swift-lco/Structures.git",
             branch: "master"
         ),
         .package(
-            url: "https://github.com/leviouwendijk/Extensions.git",
-            branch: "master"
-        ),
-
-        .package(
-            url: "https://github.com/leviouwendijk/Version.git",
+            url: "https://github.com/swift-lco/Extensions.git",
             branch: "master"
         ),
 
         .package(
-            url: "https://github.com/leviouwendijk/Clipboard.git",
+            url: "https://github.com/swift-lco/Version.git",
             branch: "master"
         ),
 
         .package(
-            url: "https://github.com/leviouwendijk/ViewPrimitives.git",
+            url: "https://github.com/swift-lco/Clipboard.git",
+            branch: "master"
+        ),
+
+        .package(
+            url: "https://github.com/swift-lco/ViewPrimitives.git",
             branch: "master"
         ),
     ],
